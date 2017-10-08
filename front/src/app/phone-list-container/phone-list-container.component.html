@@ -1,0 +1,17 @@
+<section id="galleries">
+
+  <!-- Photo Galleries -->
+  <div class="gallery">
+    <header class="special">
+      <h2>Latest mobiles</h2>
+    </header>
+    <div class="content">
+      <div class="media" *ngFor='let phone of phones'>
+        <phone-detail-component [phone]="phone"></phone-detail-component>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+

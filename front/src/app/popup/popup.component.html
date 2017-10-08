@@ -1,0 +1,8 @@
+<h1 md-dialog-title>{{data.company}} {{data.model}}</h1>
+<div md-dialog-content>
+  <p>{{data.ram}} GB RAM, {{data.frontCamera}} Mpx Front Camera, {{data.backCamera}} Mpx Front Camera</p>
+  <img src="../assets/images/fulls/{{data.id}}.jpg" title="{{data.company}} {{data.model}}" />
+</div>
+<div md-dialog-actions>
+  <button md-button (click)="closePopup()" tabindex="-1">Close</button>
+</div>

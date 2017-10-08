@@ -1,0 +1,23 @@
+
+
+#dvLoading #backgroundLoading{
+  background: #0072C6;
+  opacity: 0.3;
+  height: 1500px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: -50px;
+  margin: 0;
+  z-index: 1000;
+}
+#dvLoading img{
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -25px 0 0 -25px;
+  z-index: 10000;
+  opacity: .5;
+}
